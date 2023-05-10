@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       current-time: ${{ steps.time.outputs.time }}
-    step:
+    steps:
       - name: Greet someone
         run: echo "Hello ${{ inputs.who-to-greet }}"
         
